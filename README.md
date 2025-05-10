@@ -1,8 +1,10 @@
-# Practical Simulation for CLT 🧪🎲
+# Practical Simulation for CLT
+
+👉 [Check out the original post here](https://www.linkedin.com/posts/ruturajts_simulation-of-central-limit-theorem-activity-7308865194745589762-oKIg?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEAqNSIBeIrWrwz7NcfnvvTPA7zy3_L4plw)
 
 This repository contains a hands-on experiment to demonstrate the **Central Limit Theorem (CLT)** using Python simulations. Inspired by a real classroom discussion and extended into an engaging exploration, this project answers key questions about how CLT behaves across different distributions—and what happens when sampling bias enters the picture.
 
-## 🔍 Motivation
+## Motivation
 
 During one of our inferential statistics sessions, a classmate asked:
 
@@ -10,16 +12,15 @@ During one of our inferential statistics sessions, a classmate asked:
 
 Many students were unsure, thinking uniform probabilities might affect sampling outcomes. To answer this properly, I decided to simulate the process and show how CLT works, rather than just explain it theoretically.
 
-(👉 [Check out the original post here](https://www.linkedin.com/posts/ruturajts_simulation-of-central-limit-theorem-activity-7308865194745589762-oKIg?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEAqNSIBeIrWrwz7NcfnvvTPA7zy3_L4plw)
 
-## 🎯 Objectives
+## Objectives
 
 - Validate the Central Limit Theorem with a uniform distribution.
 - Visually demonstrate the emergence of normality in sample means.
 - Discuss the role of **IID** (Independent and Identically Distributed) conditions.
 - Explore what happens when **sampling bias** is introduced.
 
-## 🧪 Simulation Setup
+## Simulation Setup
 
 We model an experiment of rolling a fair die (a classic uniform distribution):
 
@@ -31,7 +32,7 @@ We model an experiment of rolling a fair die (a classic uniform distribution):
 
 You’ll see CLT in action: as the sample size increases, the distribution of sample means tends to look more like a bell curve, regardless of the original distribution!
 
-## 📉 What About Biased Sampling?
+## What About Biased Sampling?
 
 To dig deeper, we simulate **biased sampling** by rolling an **unfair die** (where outcomes are not equally likely) and observe how the CLT behaves:
 
@@ -39,13 +40,13 @@ To dig deeper, we simulate **biased sampling** by rolling an **unfair die** (whe
 - How is the shape of the sampling distribution affected?
 - What breaks if the IID assumption is violated?
 
-## 📁 Contents
+## Contents
 
 - `Central Limit Theorem Simulation.ipynb` – The core notebook containing simulations, visualizations, and explanations.
 - `README.md` – This file, providing context and guidance for users.
 - `biased_die_simulation.ipynb` – For extended work on the biased sampling case.
 
-## 🛠️ Tools Used
+## Tools Used
 
 - Python
 - NumPy
@@ -59,7 +60,7 @@ To dig deeper, we simulate **biased sampling** by rolling an **unfair die** (whe
 - Sampling distributions of means become normal with sufficiently large sample sizes.
 - Bias in sampling can distort results if IID assumptions are violated—but the CLT can still approximate normality under certain conditions.
 
-## 📌 Conclusion
+## Conclusion
 
 This simulation was a fun and practical way to reinforce a foundational concept in statistics.\
 It’s a great reminder that **learning by doing**—especially with visual evidence—deepens understanding in ways theory alone sometimes can't.
