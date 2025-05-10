@@ -10,6 +10,8 @@ During one of our inferential statistics sessions, a classmate asked:
 
 Many students were unsure, thinking uniform probabilities might affect sampling outcomes. To answer this properly, I decided to simulate the process and show how CLT works, rather than just explain it theoretically.
 
+(👉 [Check out the original post here](https://www.linkedin.com/posts/ruturajts_simulation-of-central-limit-theorem-activity-7308865194745589762-oKIg?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEAqNSIBeIrWrwz7NcfnvvTPA7zy3_L4plw)
+
 ## 🎯 Objectives
 
 - Validate the Central Limit Theorem with a uniform distribution.
