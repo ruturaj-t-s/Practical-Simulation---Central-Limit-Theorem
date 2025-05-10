@@ -42,9 +42,9 @@ To dig deeper, we simulate **biased sampling** by rolling an **unfair die** (whe
 
 ## Contents
 
-- `Central Limit Theorem Simulation.ipynb` – The core notebook containing simulations, visualizations, and explanations.
 - `README.md` – This file, providing context and guidance for users.
-- `biased_die_simulation.ipynb` – For extended work on the biased sampling case.
+- `Central Limit Theorem Simulation.ipynb` – The core notebook containing simulations, visualizations, and explanations.
+- `Sampling Bias.ipynb` – For extended work on the biased sampling case.
 
 ## Tools Used
 
