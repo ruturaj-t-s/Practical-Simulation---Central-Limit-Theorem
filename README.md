@@ -21,11 +21,11 @@ Many students were unsure, thinking uniform probabilities might affect sampling 
 
 We model an experiment of rolling a fair die (a classic uniform distribution):
 
-- Roll a fair die to generate 5,000+ outcomes.
+- Roll a fair die to generate 1,000+ outcomes.
 - Draw 50 samples of 30 dice rolls each.
 - Calculate the **sample means**.
 - Plot the distribution of sample means to visualize how it converges to a normal distribution.
-- Gradually increase the sample size to observe the effect.
+- Gradually increase the sample size (or number of samples) to observe the effect.
 
 You’ll see CLT in action: as the sample size increases, the distribution of sample means tends to look more like a bell curve, regardless of the original distribution!
 
@@ -39,15 +39,15 @@ To dig deeper, we simulate **biased sampling** by rolling an **unfair die** (whe
 
 ## 📁 Contents
 
-- `CLT_simulation.ipynb` – The core notebook containing simulations, visualizations, and explanations.
+- `Central Limit Theorem Simulation.ipynb` – The core notebook containing simulations, visualizations, and explanations.
 - `README.md` – This file, providing context and guidance for users.
-- *(Optional)* `biased_die_simulation.ipynb` – For extended work on the biased sampling case (if added).
+- `biased_die_simulation.ipynb` – For extended work on the biased sampling case.
 
 ## 🛠️ Tools Used
 
 - Python
 - NumPy
-- Matplotlib / Seaborn
+- Matplotlib
 - pandas
 - Jupyter Notebook
 
@@ -59,6 +59,5 @@ To dig deeper, we simulate **biased sampling** by rolling an **unfair die** (whe
 
 ## 📌 Conclusion
 
-This simulation was a fun and practical way to reinforce a foundational concept in statistics. It’s a great reminder that **learning by doing**—especially with visual evidence—deepens understanding in ways theory alone sometimes can't.
-
----
+This simulation was a fun and practical way to reinforce a foundational concept in statistics.\
+It’s a great reminder that **learning by doing**—especially with visual evidence—deepens understanding in ways theory alone sometimes can't.
